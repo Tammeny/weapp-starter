@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "weapp starter",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": false,
+    "color": "#999",
+    "selectedColor": "#F0869B",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "/assets/images/home.png",
+        "selectedIconPath": "/assets/images/home_2.png",
+        "text": "首页"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 5000
+  },
+  "navigateToMiniProgramAppIdList": [],
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

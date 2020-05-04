@@ -1,0 +1,19 @@
+{
+  "name": "yxwy_mp",
+  "version": "1.0.0",
+  "description": "'颜选小程序'",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.yrymall.com/yxwy_web/yxwy_mp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.8.26",
+    "utilscore": "0.0.45"
+  }
+}

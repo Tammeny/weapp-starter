@@ -1,0 +1,11 @@
+ function fixed2(value) {
+   if (value) {
+     return value.toFixed(2)
+   } else {
+     return value
+   }
+ }
+ 
+ module.exports = {
+   fixed2: fixed2,
+ }

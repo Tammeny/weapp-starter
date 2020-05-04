@@ -1,0 +1,218 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.4",
+	"appid": "wx8d901689d114e593",
+	"projectname": "%E9%A2%9C%E9%80%89%E7%89%A9%E8%AF%AD",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "发圈",
+					"pathName": "pages/shareCircle/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "发圈-搜索",
+					"pathName": "pages/shareCircle/search/search",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "order/myorder",
+					"pathName": "order/myorder",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "协商历史",
+					"pathName": "order/talkHistory",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "退款详情",
+					"pathName": "order/refundDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "订单详情",
+					"pathName": "order/orderDetail",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "实名认证",
+					"pathName": "pages/mine/authentication/authentication",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "实名认证详情",
+					"pathName": "pages/mine/authentication-detail/authentication-detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的消息",
+					"pathName": "pages/mine/news/news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 9,
+					"name": "协商历史",
+					"pathName": "order/talkHistory",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "查看修改地址审核进度",
+					"pathName": "order/upOrderAddr/upOrderAddr",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "申请退款",
+					"pathName": "order/refund",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "消息详情",
+					"pathName": "pages/mine/news-detail/news-detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "上传图片",
+					"pathName": "pages/mine/info/info",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "搜索",
+					"pathName": "search/search",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "自营搜索",
+					"pathName": "search/search-detail/search-detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "个人中心",
+					"pathName": "pages/mine/mine",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "选择退款类型",
+					"pathName": "order/equity/equity",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "购物车",
+					"pathName": "store/car",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 19,
+					"name": "pages/mine/mine",
+					"pathName": "pages/mine/mine",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "维权列表",
+					"pathName": "pages/mine/afterSale/afterSale",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "自营首页",
+					"pathName": "pages/index/o_index",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}
