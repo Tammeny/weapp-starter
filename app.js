@@ -41,12 +41,12 @@ App({
       let SDKVersion = parseInt(res.SDKVersion.split('.').join('')); //基础库版本
       if (version > 700 && SDKVersion > 243) {
         //是否展示自定义导航
-        this.globalData.nav_custom = true;
+        this.globalData.navCustom = true;
         //计算导航栏高度
         let titleBarHeight = res.model.indexOf('iPhone') !== -1 ? 44 : 48;
         let isIphone = res.model.indexOf('iPhone') !== -1 ? true : false;
         let statusBarHeight = res.statusBarHeight || 20;
-        this.globalData.nav_height =
+        this.globalData.navHeight =
           parseInt(titleBarHeight) + parseInt(statusBarHeight);
         this.globalData.statusBarHeight = statusBarHeight;
         this.globalData.isIphone = isIphone;
@@ -63,8 +63,12 @@ App({
     }
   },
   globalData: {
+    isIphone: false,
+    isIphoneX: false,
     statusBarHeight: 0,
     navHeight: 0,
     navCustom: false,
+    windowHeight: 0,
+    windowWidth: 0,
   },
 });
